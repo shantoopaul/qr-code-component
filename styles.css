@@ -19,13 +19,17 @@ body {
 }
 
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	line-height: 1.6;
 	font-family: 'Outfit', sans-serif;
 	color: var(--secondary-color);
 	background-color: var(--background-color);
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 img {
